@@ -1,0 +1,35 @@
+{
+  "name": "perspective-core-db",
+  "version": "0.0.1",
+  "description": "",
+  "bugs": {
+    "url": "http://github.com/perspective/perspective-core-db/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/perspective/perspective-core-db.git"
+  },
+  "contributors":[
+    "Hans Magnus Inderberg <hinderberg@gmail.com> (http://hinderberg.no/)",
+    "Mads Mobœk <> ()"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bin": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "rethinkdb": "~1.9.0-1",
+    "underscore": "~1.4.4",
+    "q": "~0.9.7",
+    "perspective-core": "*",
+    "perspective-core-server": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "sinon": "*",
+    "sandboxed-module": "*"
+  }
+}
