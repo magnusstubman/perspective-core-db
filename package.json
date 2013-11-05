@@ -27,9 +27,9 @@
     "perspective-core-server": "*"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "sinon": "*",
-    "sandboxed-module": "*"
+    "mocha": "~1.14.0",
+    "should": "~2.0.2",
+    "sinon": "~1.7.3",
+    "sandboxed-module": "~0.3.0"
   }
 }
